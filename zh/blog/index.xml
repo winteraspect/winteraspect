@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | 我的博客</title>
+    <link>/zh/blog/</link>
+      <atom:link href="/zh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2019. All rights reserved.</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Blog</title>
+      <link>/zh/blog/</link>
+    </image>
+    
+  </channel>
+</rss>

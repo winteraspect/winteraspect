@@ -1,5 +1,4 @@
 # script to manipulate the blog website from R
-setwd("~/Documents/GitHub/blog")
 library('blogdown')
 library('processx')
 # real-time rendering 

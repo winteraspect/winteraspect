@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on A minimal Hugo website</title>
+    <title>Home on 冬来小站 If Winter</title>
     <link>/</link>
-    <description>Recent content in Home on A minimal Hugo website</description>
+    <description>Recent content in Home on 冬来小站 If Winter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -59,12 +59,13 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>
-      <title>About Hugo XMin</title>
+      <title>About author</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>XMin is the first Hugo theme I have designed. The original reason that I wrote it was I needed a minimal example of Hugo themes when I was writing the blogdown book. Basically I wanted a simple theme that supports a navigation menu, a home page, other single pages, lists of pages, blog posts, categories, tags, and RSS. That is all. Nothing fancy. In terms of CSS and JavaScript, I really want to keep them minimal.</description>
+      <description>This is not the first blog that the author tried to maintain. However, without enough motivation, none of the previous attempts pulled off. With a new factor, I truly hope this site will live as long as possible. It is also a good gauge for a professional researcher to maintain his passion and habit of thinking and reflecting.
+Experience Thanks to the Bocconi University and its generous scholarship unibocconi.eu, the author has been able to finish his 31-month study in Europe, across Italy and the Netherlands.</description>
     </item>
     
   </channel>

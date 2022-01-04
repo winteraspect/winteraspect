@@ -6,18 +6,7 @@
     <description>Recent content in Home on 冬来小站 If Winter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Replication of the Eisenberg-Noe Payment Equilibrium</title>
-      <link>/note/2022/01/03/replication-of-the-eisenberg-noe-payment-equilibrium/</link>
-      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/note/2022/01/03/replication-of-the-eisenberg-noe-payment-equilibrium/</guid>
-      <description>The following proofs are referenced from Eisenberg, Larry, and Thomas H. Noe. 2001. “Systemic Risk in Financial Systems.” Management Sci- ence 47 (2): 236–49.
-Proofs from the original paper Existence of Payment Equilibrium (Theorem 1) Theorem 1. Corresponding to every financial system $$(\Pi, \bar{p}, e)$$ a. There exists a greatest and least clearing payment vector.
-b. under all clearing vectors, the value of the equity at each node of the financial system is the same, that is, if p&#39; and p&#39;&#39; are any two clearing vectors, $$(\Pi^T(p&#39;)+e - \bar{p})^+=(\Pi^T(p&#39;&#39;)+e - \bar{p})^+$$</description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
       <link>/post/2020/12/01/hello-r-markdown/</link>

@@ -34,25 +34,35 @@
 </div>
 
 <main>
+
+<script src="/note/2022/01/03/replication-of-the-eisenberg-noe-payment-equilibrium/index_files/header-attrs/header-attrs.js"></script>
+
+
 <p>The following proofs are referenced from Eisenberg, Larry, and Thomas H. Noe. 2001. “Systemic Risk in Financial Systems.” Management Sci- ence 47 (2): 236–49.</p>
-<h1 id="proofs-from-the-original-paper">Proofs from the original paper</h1>
-<h2 id="existence-of-payment-equilibrium-theorem-1">Existence of Payment Equilibrium (Theorem 1)</h2>
-<p>Theorem 1. Corresponding to every financial system $$(\Pi, \bar{p}, e)$$
+<div id="proofs-from-the-original-paper" class="section level1">
+<h1>Proofs from the original paper</h1>
+<div id="existence-of-payment-equilibrium-theorem-1" class="section level2">
+<h2>Existence of Payment Equilibrium (Theorem 1)</h2>
+<p>Theorem 1. Corresponding to every financial system <span class="math display">\[(\Pi, \bar{p}, e)\]</span>
 a. There exists a greatest and least clearing payment vector.</p>
-<p>b. under all clearing vectors, the value of the equity at each node of the financial system is the same, that is, if p' and p'' are any two clearing vectors, $$(\Pi^T(p')+e - \bar{p})^+=(\Pi^T(p'')+e - \bar{p})^+$$</p>
-<p>Proof. To prove theorem 1, we need to fist characterize some basic basic properties of the $\Phi$ map. We note that $\Phi$ is postive, increasing, concave and nonexpansive. The assertions of positivity, monotonicity and concavity follow because $\Phi$ is the composition of the positive, incraesing, affine map $q \rightarrow   \Pi^Tq + e$, and the positive , increasing, concave map $q \rightarrow   q\wedge\bar{p}$. Then by contraction thereom, we could find the fixed point and possibly a unique one.</p>
-<p>Previously, the author has characterize the clearing payment vector as $$p_i^* = min[e_i+\Sigma^N_{i=1}\Pi_{ij}^Tp_j^*,\bar{p_i}]$$
-This is where we might find the contraction we need. Using a more concise notation, the author defined $\Phi$ as $$\Phi(p; \Pi, \bar{p}, e) \equiv (\Pi^Tp+e)\wedge\bar{p}$$</p>
-<p>The proof is then finished by Tarski fixed-point theorem. (a) is proved.</p>
-<p>To prove (b), the author showed that the value of equity is the same under different payment equilibrium. Remeber $e_i$ is defined as the exogenous operating cash flow received by node i. The $\bar{p}$ represents the upper limit of the payment, which are the debt matrix.</p>
-<h2 id="uniqueness-of-payment-equilibrium-theorem-2">Uniqueness of Payment Equilibrium (Theorem 2)</h2>
-<p>To give a condition for the uniqueness of the equilibrium, the authors realize that the value of equity does not leave the closed <em>risk orbit</em>。The authors define the regular financial system to be a network where every risk orbit is a surplus set.</p>
-<p>The condition to test if an orbit is a surplus set is that</p>
-<ol>
-<li>The nodes in the set have not obligations to nodes outsiede the set.</li>
-<li>The set has positive aggregated operating cash flows.</li>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>under all clearing vectors, the value of the equity at each node of the financial system is the same, that is, if p’ and p’’ are any two clearing vectors, <span class="math display">\[(\Pi^T(p&#39;)+e - \bar{p})^+=(\Pi^T(p&#39;&#39;)+e - \bar{p})^+\]</span></li>
 </ol>
+<p>Proof. To prove theorem 1, we need to fist characterize some basic basic properties of the <span class="math inline">\(\Phi\)</span> map. We note that <span class="math inline">\(\Phi\)</span> is postive, increasing, concave and nonexpansive. The assertions of positivity, monotonicity and concavity follow because <span class="math inline">\(\Phi\)</span> is the composition of the positive, incraesing, affine map <span class="math inline">\(q \rightarrow \Pi^Tq + e\)</span>, and the positive , increasing, concave map <span class="math inline">\(q \rightarrow q\wedge\bar{p}\)</span>. Then by contraction thereom, we could find the fixed point and possibly a unique one.</p>
+<p>Previously, the author has characterize the clearing payment vector as <span class="math display">\[p_i^* = min[e_i+\Sigma^N_{i=1}\Pi_{ij}^Tp_j^*,\bar{p_i}]\]</span>
+This is where we might find the contraction we need. Using a more concise notation, the author defined <span class="math inline">\(\Phi\)</span> as <span class="math display">\[\Phi(p; \Pi, \bar{p}, e) \equiv (\Pi^Tp+e)\wedge\bar{p}\]</span></p>
+<p>The proof is then finished by Tarski fixed-point theorem. (a) is proved.</p>
+<p>To prove (b), the author showed that the value of equity is the same under different payment equilibrium. Remeber <span class="math inline">\(e_i\)</span> is defined as the exogenous operating cash flow received by node i. The <span class="math inline">\(\bar{p}\)</span> represents the upper limit of the payment, which are the debt matrix.</p>
+</div>
+<div id="uniqueness-of-payment-equilibrium-theorem-2" class="section level2">
+<h2>Uniqueness of Payment Equilibrium (Theorem 2)</h2>
+<p>To give a condition for the uniqueness of the equilibrium, the authors realize that the value of equity does not leave the closed <em>risk orbit</em>。The authors define the regular financial system to be a network where every risk orbit is a surplus set.</p>
+<p>The condition to test if an orbit is a surplus set is that
+1. The nodes in the set have not obligations to nodes outsiede the set.
+2. The set has positive aggregated operating cash flows.</p>
 <p>In the meantime, the risk orbit is just a same <strong>closed</strong> set without the <strong>surplus</strong> feature.</p>
+</div>
+</div>
 
 </main>
 
@@ -64,7 +74,7 @@ This is where we might find the contraction we need. Using a more concise notati
 
   
   <hr/>
-  Cool things happen in Winter. (email: smilingwinter(a)hotmail.com).
+  Cool things happen in Winter. (email: smilingwinter(a)hotmail.com, love from herselfjewelry.com).
   
   </footer>
   </body>
